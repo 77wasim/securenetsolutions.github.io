@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SecureNet Solutions - Expertos en Ciberseguridad Empresarial</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      @font-face {
+        font-family: 'LucideIcons';
+        /* Updated URL to jsdelivr as unpkg was causing issues for some */
+        src: url(https://cdn.jsdelivr.net/npm/lucide-static@latest/font/Lucide.ttf) format('truetype');
+      }
+      .lucide {
+        font-family: 'LucideIcons';
+        font-style: normal;
+        font-weight: normal;
+        font-variant: normal;
+        text-rendering: auto;
+        line-height: 1;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        display: inline-block; /* Ensure icons behave like inline elements */
+        vertical-align: middle; /* Align icons nicely with text */
+      }
+      /* Basic reset for consistent spacing */
+      body {
+        font-family: 'Inter', sans-serif; /* Using Inter font commonly included in Tailwind */
+      }
+    </style>
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-3 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold text-blue-700">SecureNet <span class="text-blue-500">Solutions</span></a>
+            <div class="hidden md:flex space-x-6 items-center">
+                <a href="#inicio" class="text-gray-600 hover:text-blue-600 transition duration-300">Inicio</a>
+                <a href="#servicios" class="text-gray-600 hover:text-blue-600 transition duration-300">Servicios</a>
+                <a href="#planes" class="text-gray-600 hover:text-blue-600 transition duration-300">Planes</a>
+                <a href="#contacto" class="bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded-lg transition duration-300">Contacto</a>
+            </div>
+            <div class="md:hidden">
+                <button class="text-gray-600 focus:outline-none">
+                    <i class="lucide text-2xl">menu</i> </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="inicio" class="bg-gradient-to-r from-blue-700 to-blue-500 text-white pt-20 pb-28 px-6 text-center">
+            <div class="container mx-auto">
+                <h1 class="text-4xl md:text-5xl font-bold mb-4 leading-tight">Protegemos el Futuro Digital de Su Empresa</h1>
+                <p class="text-lg md:text-xl mb-8 text-blue-100 max-w-3xl mx-auto">Soluciones de ciberseguridad a medida para defender sus activos, asegurar la continuidad del negocio y darle completa tranquilidad.</p>
+                <a href="#contacto" class="bg-white text-blue-700 font-semibold py-3 px-8 rounded-lg hover:bg-gray-100 transition duration-300 text-lg shadow-md">Solicitar Consulta Gratuita</a>
+            </div>
+        </section>
+
+        <section class="py-16 px-6 bg-white">
+            <div class="container mx-auto text-center">
+                <h2 class="text-3xl font-bold text-gray-800 mb-6">¿Por Qué Invertir en Ciberseguridad?</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto mb-10">En un mundo digital, las amenazas como ransomware, phishing y brechas de datos son constantes. Una brecha puede costar millones y dañar irreparablemente la confianza de sus clientes. Proteger su empresa es una inversión esencial, no un gasto.</p>
+                 <img src="https://placehold.co/600x300/e2e8f0/94a3b8?text=Ilustracion+Ciberseguridad" alt="Ilustración de Ciberseguridad" class="mx-auto rounded-lg shadow-md" onerror="this.src='https://placehold.co/600x300/e0e0e0/a0a0a0?text=Imagen+no+disponible';">
+            </div>
+        </section>
+
+        <section id="servicios" class="py-16 px-6">
+             <div class="container mx-auto text-center">
+                 <h2 class="text-3xl font-bold text-gray-800 mb-12">Nuestros Servicios Integrales</h2>
+                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                     <div class="bg-white p-6 rounded-lg shadow-lg border border-gray-200">
+                         <div class="flex justify-center mb-4">
+                            <i class="lucide text-4xl text-blue-600">shield-check</i> </div>
+                         <h3 class="text-xl font-semibold mb-2">Protección Gestionada</h3>
+                         <p class="text-gray-600">Monitorización y defensa proactiva contra amenazas con firewalls, EDR y gestión de vulnerabilidades.</p>
+                     </div>
+                     <div class="bg-white p-6 rounded-lg shadow-lg border border-gray-200">
+                          <div class="flex justify-center mb-4">
+                            <i class="lucide text-4xl text-blue-600">alert-triangle</i> </div>
+                         <h3 class="text-xl font-semibold mb-2">Respuesta a Incidentes</h3>
+                         <p class="text-gray-600">Planes y equipos dedicados para contener y mitigar rápidamente el impacto de cualquier incidente de seguridad.</p>
+                     </div>
+                     <div class="bg-white p-6 rounded-lg shadow-lg border border-gray-200">
+                          <div class="flex justify-center mb-4">
+                            <i class="lucide text-4xl text-blue-600">clipboard-check</i> </div>
+                         <h3 class="text-xl font-semibold mb-2">Cumplimiento y Consultoría</h3>
+                         <p class="text-gray-600">Asesoramiento experto para cumplir normativas (RGPD, ISO 27001) y fortalecer su postura de seguridad.</p>
+                     </div>
+                 </div>
+             </div>
+         </section>
+
+        <section id="planes" class="py-16 px-6 bg-gray-100">
+            <div class="container mx-auto">
+                <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">Planes Adaptados a Cada Necesidad</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+                    <div class="bg-white rounded-lg shadow-lg p-8 border border-gray-200 flex flex-col">
+                        <h3 class="text-2xl font-semibold text-center mb-4">Plan Básico</h3>
+                        <p class="text-center text-gray-500 mb-6">Protección esencial para Pymes y Startups.</p>
+                        <p class="text-4xl font-bold text-center mb-6">Contactar</p> <ul class="space-y-3 text-gray-600 mb-8 flex-grow">
+                            <li class="flex items-center"><i class="lucide text-green-500 mr-2">check</i> Gestión Firewall Estándar</li>
+                            <li class="flex items-center"><i class="lucide text-green-500 mr-2">check</i> Antivirus/Antimalware Básico</li>
+                            <li class="flex items-center"><i class="lucide text-green-500 mr-2">check</i> Monitorización (Horario Laboral)</li>
+                            <li class="flex items-center"><i class="lucide text-green-500 mr-2">check</i> Escaneo Vulnerabilidades (Trimestral)</li>
+                            <li class="flex items-center"><i class="lucide text-green-500 mr-2">check</i> Formación Básica Online</li>
+                            <li class="flex items-center"><i class="lucide text-green-500 mr-2">check</i> Soporte Email/Ticket</li>
+                        </ul>
+                        <a href="#contacto" class="mt-auto block w-full text-center bg-blue-500 hover:bg-blue-600 text-white font-medium py-3 px-6 rounded-lg transition duration-300">Empezar con Básico</a>
+                    </div>
+
+                    <div class="bg-white rounded-lg shadow-xl p-8 border-2 border-blue-600 relative flex flex-col">
+                        <span class="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-blue-600 text-white text-xs font-semibold px-3 py-1 rounded-full">Recomendado</span>
+                        <h3 class="text-2xl font-semibold text-center mb-4 text-blue-700">Plan Pro</h3>
+                        <p class="text-center text-gray-500 mb-6">Seguridad avanzada y proactiva para empresas en crecimiento.</p>
+                        <p class="text-4xl font-bold text-center mb-6">Contactar</p> <ul class="space-y-3 text-gray-600 mb-8 flex-grow">
+                            <li class="flex items-center"><i class="lucide text-green-500 mr-2">check</i> Todo en Básico, y además:</li>
+                            <li class="flex items-center"><i class="lucide text-green-500 mr-2">check</i> Gestión Firewall Avanzada</li>
+                            <li class="flex items-center"><i class="lucide text-green-500 mr-2">check</i> Protección Endpoints Avanzada (EDR)</li>
+                            <li class="flex items-center"><i class="lucide text-green-500 mr-2">check</i> Monitorización 24/7</li>
+                            <li class="flex items-center"><i class="lucide text-green-500 mr-2">check</i> Escaneo Vulnerabilidades (Mensual)</li>
+                            <li class="flex items-center"><i class="lucide text-green-500 mr-2">check</i> Gestión de Parches</li>
+                            <li class="flex items-center"><i class="lucide text-green-500 mr-2">check</i> Simulaciones Phishing</li>
+                            <li class="flex items-center"><i class="lucide text-green-500 mr-2">check</i> Soporte Telefónico</li>
+                        </ul>
+                        <a href="#contacto" class="mt-auto block w-full text-center bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 px-6 rounded-lg transition duration-300">Empezar con Pro</a>
+                    </div>
+
+                    <div class="bg-white rounded-lg shadow-lg p-8 border border-gray-200 flex flex-col">
+                        <h3 class="text-2xl font-semibold text-center mb-4">Plan Premium</h3>
+                        <p class="text-center text-gray-500 mb-6">Solución integral 24/7 para empresas exigentes.</p>
+                        <p class="text-4xl font-bold text-center mb-6">Contactar</p> <ul class="space-y-3 text-gray-600 mb-8 flex-grow">
+                            <li class="flex items-center"><i class="lucide text-green-500 mr-2">check</i> Todo en Pro, y además:</li>
+                             <li class="flex items-center"><i class="lucide text-green-500 mr-2">check</i> Monitorización Avanzada (MDR)</li>
+                            <li class="flex items-center"><i class="lucide text-green-500 mr-2">check</i> Respuesta a Incidentes Dedicada</li>
+                            <li class="flex items-center"><i class="lucide text-green-500 mr-2">check</i> Gestión de Cumplimiento Avanzada</li>
+                            <li class="flex items-center"><i class="lucide text-green-500 mr-2">check</i> Threat Intelligence</li>
+                            <li class="flex items-center"><i class="lucide text-green-500 mr-2">check</i> Gestor de Cuenta Dedicado</li>
+                            <li class="flex items-center"><i class="lucide text-green-500 mr-2">check</i> Soporte Prioritario 24/7</li>
+                        </ul>
+                        <a href="#contacto" class="mt-auto block w-full text-center bg-gray-700 hover:bg-gray-800 text-white font-medium py-3 px-6 rounded-lg transition duration-300">Empezar con Premium</a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="py-16 px-6 bg-white">
+            <div class="container mx-auto">
+                <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">¿Por Qué Elegir SecureNet Solutions?</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 text-center">
+                    <div class="p-4">
+                         <div class="flex justify-center mb-3">
+                            <i class="lucide text-5xl text-blue-600">award</i> </div>
+                        <h4 class="text-lg font-semibold mb-1">Experiencia Comprobada</h4>
+                        <p class="text-gray-600 text-sm">Años protegiendo empresas de diversos sectores.</p>
+                    </div>
+                     <div class="p-4">
+                         <div class="flex justify-center mb-3">
+                            <i class="lucide text-5xl text-blue-600">cpu</i> </div>
+                        <h4 class="text-lg font-semibold mb-1">Tecnología Avanzada</h4>
+                        <p class="text-gray-600 text-sm">Utilizamos herramientas líderes en la industria.</p>
+                    </div>
+                     <div class="p-4">
+                         <div class="flex justify-center mb-3">
+                            <i class="lucide text-5xl text-blue-600">users</i> </div>
+                        <h4 class="text-lg font-semibold mb-1">Enfoque Personalizado</h4>
+                        <p class="text-gray-600 text-sm">Soluciones adaptadas a sus necesidades únicas.</p>
+                    </div>
+                     <div class="p-4">
+                         <div class="flex justify-center mb-3">
+                            <i class="lucide text-5xl text-blue-600">clock</i> </div>
+                        <h4 class="text-lg font-semibold mb-1">Soporte 24/7</h4>
+                        <p class="text-gray-600 text-sm">Estamos aquí cuando más nos necesita (Planes Pro/Premium).</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto" class="py-16 px-6 bg-gradient-to-r from-gray-700 to-gray-900 text-white">
+            <div class="container mx-auto max-w-3xl text-center">
+                <h2 class="text-3xl font-bold mb-6">Hablemos de su Seguridad</h2>
+                <p class="text-lg text-gray-300 mb-8">Complete el formulario o contáctenos directamente para una consulta gratuita y sin compromiso.</p>
+
+                <form action="#" method="POST" class="bg-white text-gray-800 p-8 rounded-lg shadow-xl max-w-xl mx-auto text-left">
+                    <div class="mb-4">
+                        <label for="name" class="block text-sm font-medium text-gray-700 mb-1">Nombre Completo</label>
+                        <input type="text" id="name" name="name" required class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500">
+                    </div>
+                    <div class="mb-4">
+                        <label for="company" class="block text-sm font-medium text-gray-700 mb-1">Nombre de la Empresa</label>
+                        <input type="text" id="company" name="company" required class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500">
+                    </div>
+                    <div class="mb-4">
+                        <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Correo Electrónico</label>
+                        <input type="email" id="email" name="email" required class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500">
+                    </div>
+                    <div class="mb-6">
+                        <label for="message" class="block text-sm font-medium text-gray-700 mb-1">Mensaje (Describa brevemente sus necesidades)</label>
+                        <textarea id="message" name="message" rows="4" required class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500"></textarea>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" class="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-8 rounded-lg transition duration-300 shadow-md">Enviar Consulta</button>
+                    </div>
+                </form>
+
+                <div class="mt-10 text-gray-400">
+                    <p>O contáctenos directamente:</p>
+                    <p>Email: <a href="mailto:wasimhammuti@gmail.com" class="hover:text-white">wasimhammuti@gmail.com</a></p>
+                    <p>Teléfono: <a href="tel:+34604993658" class="hover:text-white">+34 604 99 36 58</a></p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-gray-800 text-gray-400 py-8 px-6">
+        <div class="container mx-auto text-center md:flex md:justify-between">
+            <p class="text-sm mb-4 md:mb-0">&copy; 2025 SecureNet Solutions. Todos los derechos reservados.</p>
+            <div class="space-x-4">
+                <a href="#" class="text-sm hover:text-white transition duration-300">Política de Privacidad</a>
+                <a href="#" class="text-sm hover:text-white transition duration-300">Términos de Servicio</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Basic mobile menu toggle (replace with a more robust solution if needed)
+        const menuButton = document.querySelector('.md\\:hidden button'); // Selects the button inside the mobile container
+        const navLinks = document.querySelector('.hidden.md\\:flex'); // Selects the desktop nav links container
+
+        if (menuButton && navLinks) {
+            menuButton.addEventListener('click', () => {
+                // This is a placeholder action. In a real app, you'd toggle a mobile menu visibility.
+                // For this basic example, we'll just log to console.
+                console.log('Mobile menu button clicked. Implement menu toggle logic here.');
+                // Example: You might toggle a class on a dedicated mobile menu element.
+                // const mobileMenu = document.getElementById('mobile-menu');
+                // mobileMenu.classList.toggle('hidden');
+            });
+        }
+    </script>
+
+</body>
+</html>
